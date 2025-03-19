@@ -1,0 +1,49 @@
+The school has several different specifications of the computer room, due to the use of often appear "crash" phenomenon, now develop a set of computer room reservation system to solve this problem.
+
+### Identity Profile
+There are three separate identities using the program
+
+** * Student Representative ** : Request to use the computer room
+** * Faculty ** : Review student appointment requests
+** * Admin ** : Create accounts for students and teachers
+
+### Introduction to the Computer room
+There are three rooms in total
+
+* No. 1 Computer room -- Maximum capacity of 20 people
+* Room 2 -- Maximum capacity of 50 people
+* Room 3 -- Maximum capacity of 100 people
+
+### An introduction to the application
+
+* Applied orders are cleared weekly by the admin.
+* Students can make an appointment to use the computer room in the next week. The date of the appointment is from Monday to Friday, and the appointment time (morning and afternoon) should be selected when making the appointment.
+* Teacher to review the appointment, according to the actual situation to review the appointment pass or fail
+
+### System specific requirements
+
+* First, go to the login screen. You can login as:
+* Student representatives
+* Teacher
+* Administrators
+* Quit
+* After each identity needs to be verified, go to the submenu
+* Students need to input: student ID, name, login password
+* Teachers need to input: employee number, name, login password
+* Admin needs to enter: admin name, login password
+* Student-specific features
+* Request a reservation - Reserve a computer room
+* Check your reservation - Check your reservation status
+* View all appointments - See all appointments and their status
+* Cancellations - Cancellations of your own appointments, either successful or under review
+* Log out - Log out
+* Teacher specific features
+* View all appointments - See all appointments and their status
+* Review Appointments - Review student appointments
+* Log out - Log out
+* Administrator specific features
+* Add account - To add a student or teacher account, we need to check whether the student number or teacher number is duplicate
+* View account - you can choose to view all information about the student or teacher
+* View room - View all room information
+* Clear Appointments - Clear all appointments
+* Log out - Log out
